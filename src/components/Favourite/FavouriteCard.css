@@ -1,0 +1,41 @@
+.favouriteCard{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #2c2e2f;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    color: white;
+    align-items: start;
+    min-width: 170px;
+   
+}
+
+
+
+.favouriteCard__name{
+font-size: 16px;
+}
+
+.favouriteCard__type{
+    font-size: 12px;
+    }
+    
+
+.favouriteCard p {
+    margin-top: 5px;
+}
+.favouriteCard__image{
+    width: 100px;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.favouriteCard__bottom{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+   width: 100%;
+   justify-content: space-between;
+}

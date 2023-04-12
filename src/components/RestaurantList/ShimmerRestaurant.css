@@ -1,0 +1,118 @@
+.shimmerRestaurant{
+    margin: 20px;
+    padding: 20px;
+    width: 90%;
+    height: 150px;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shimmerCard__Container {
+    display: flex;
+  }
+  
+  .shimmerCard__image {
+    background-color:#f7f7f7 ;
+    width: 150px;
+    border-radius: 15px;
+    height: 60px
+  }
+  
+  .shimmerCard__details {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .shimmerCard__details h4 {
+    font-weight: normal;
+    background-color:#f7f7f7 ;
+    width: 140px;
+    height: 5px;
+    font-size: 18px;
+    width: 140px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 10px;
+  }
+  
+  .shimmer__location {
+    border-radius: 10px;
+    margin-top: 4px;
+    background-color:#f7f7f7 ;
+    font-size: 16px;
+    width: 120px;
+    height: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+   
+  }
+  
+  .shimmer__price {
+    border-radius: 10px;
+    background-color:#f7f7f7 ;
+   font-size: 16px;
+   width: 50px;
+   height: 2px;
+      margin: 20px;
+    }
+    
+    .shimmer__rating {
+        border-radius: 10px;
+         background-color: white;
+        font-size: 16px;
+        width: 100px;
+        height: 1px;
+        background-color:#f7f7f7 ;;
+      font-size:12px;
+      margin-top:  5px;
+    }
+    
+    .shimmer__offers{
+      margin: 5px;
+      color: orangered;
+      font-weight: bold;
+    }
+  
+  
+  @media only screen and (max-width: 900px) {
+  
+    .shimmerCard__image {
+      width: 100px;
+      border-radius: 15px;
+    }
+  
+    .shimmerCard {
+    margin: 10px;
+      padding: 20px;
+    
+      display: flex;
+  
+      border-radius: 20px;
+      align-items: center;
+      justify-content: space-between;
+      align-self: center;
+    }
+    .shimmer__price {
+        background-color:#f7f7f7 ;
+      margin: 0px;
+    }
+    .shimmer__offers{
+      margin: 5px;
+      color: orangered;
+      font-weight: bold;
+    }
+  
+    .shimmer__rating {
+        background-color:#f7f7f7 ;
+      font-size:12px;
+      height: 4px;
+    }
+    
+  }
+  
+  

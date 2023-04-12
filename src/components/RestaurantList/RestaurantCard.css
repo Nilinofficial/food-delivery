@@ -1,0 +1,100 @@
+.RestuarantCard {
+  /* margin-top: 20px;
+    margin-bottom: 20px; */
+  margin: 20px;
+  padding: 20px;
+cursor: pointer;
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.restuarantCard__Container {
+  display: flex;
+}
+
+.RestuarantCard__image {
+  width: 150px;
+  border-radius: 15px;
+}
+
+.RestuarantCard__details {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.RestuarantCard__details h4 {
+  font-weight: normal;
+  font-size: 18px;
+  width: 140px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Restuarant__location {
+ 
+  font-size: 16px;
+  width: 140px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+ 
+}
+
+.restaurant__price {
+    
+    margin: 20px;
+  }
+  
+  .Restuarant__rating {
+    color: gray;
+    font-size:12px;
+    margin:  5px;
+  }
+  
+  .Restuarant__offers{
+    margin: 5px;
+    color: orangered;
+    font-weight: bold;
+  }
+
+
+@media only screen and (max-width: 900px) {
+
+  .RestuarantCard__image {
+    width: 100px;
+    border-radius: 15px;
+  }
+
+  .RestuarantCard {
+  margin: 10px;
+    padding: 20px;
+  
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+  }
+  .restaurant__price {
+  
+    margin: 0px;
+  }
+  .Restuarant__offers{
+    margin: 5px;
+    color: orangered;
+    font-weight: bold;
+  }
+
+  .Restuarant__rating {
+    color: gray;
+    font-size:12px;
+    padding: 5px;
+  }
+  
+}
+

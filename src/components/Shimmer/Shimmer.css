@@ -1,0 +1,111 @@
+.shimmer__h3{
+    width: 200px;
+    height: 7px;
+    border-radius: 20px;
+    background-color: lightgray;
+}
+.shimmer__Price{
+    width: 100px;
+    height: 4px;
+    border-radius: 20px;
+    background-color: lightgray;
+    margin-top: 10px;
+}
+
+.shimmer__h1{
+    width: 260px;
+    height: 7px;
+    border-radius: 20px;
+    background-color: lightgray;
+}
+
+.shimmer__cuisines{
+    width: 150px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: lightgray;
+}
+
+.shimmer__Rating{
+    width: 100px;
+    height: 4px;
+    border-radius: 20px;
+    background-color: lightgray;
+}
+
+.shimmer__Recommended{
+    width: 200px;
+    height: 4px;
+    border-radius: 20px;
+    background-color: lightgray; 
+}
+
+.shimmer__category {
+    width: 200px;
+    height: 3px;
+    border-radius: 20px;
+    background-color: lightgray; 
+    margin-top: 10px;
+}
+.shimmer__Image{
+    width: 150px;
+    height: 70px;
+    
+}
+
+@media only screen and (max-width: 900px){
+    .shimmer__h3{
+        width: 200px;
+        height: 7px;
+        border-radius: 20px;
+        background-color: lightgray;
+    }
+    .shimmer__Price{
+        width: 100px;
+        height: 4px;
+        border-radius: 20px;
+        background-color: lightgray;
+        margin-top: 10px;
+    }
+    
+    .shimmer__h1{
+        width: 150px;
+        height: 7px;
+        border-radius: 20px;
+        background-color: lightgray;
+    }
+    
+    .shimmer__cuisines{
+        width: 100px;
+        height: 5px;
+        border-radius: 20px;
+        background-color: lightgray;
+    }
+    
+    .shimmer__Rating{
+        width: 70px;
+        height: 4px;
+        border-radius: 20px;
+        background-color: lightgray;
+    }
+    
+    .shimmer__Recommended{
+        width: 200px;
+        height: 4px;
+        border-radius: 20px;
+        background-color: lightgray; 
+    }
+    
+    .shimmer__category {
+        width: 70px;
+        height: 3px;
+        border-radius: 20px;
+        background-color: lightgray; 
+        margin-top: 10px;
+    }
+    .shimmer__Image{
+        width: 150px;
+        height: 70px;
+        
+    }
+}

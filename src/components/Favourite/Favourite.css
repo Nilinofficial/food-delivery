@@ -1,0 +1,16 @@
+.favourite {
+    padding: 15px;
+    overflow-x: scroll;
+align-items: center;
+scrollbar-width: none;  /* Firefox */
+}
+
+.favourite::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+.FavouritesCard{
+    display: flex;
+   
+}

@@ -1,0 +1,29 @@
+/* .search {
+    width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   padding: 10px;
+}
+.search__box{
+ display: flex;
+    width: 95%;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+}
+.search__icon{
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
+.search_input{
+    padding: 15px;
+    width: 80%;
+    background-color: transparent;
+    outline: none;
+    border-color: transparent;
+    border-radius: 5px;
+   
+} */
